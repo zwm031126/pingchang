@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|每天都是想你的一天|爱你爱你|Every day is a day to think of you. Love you love you.|#countdown 3||');
+      S.UI.simulate('|我厉害不|虽然还没改完|Happy every day|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
